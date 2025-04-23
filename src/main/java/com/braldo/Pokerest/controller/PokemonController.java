@@ -29,6 +29,7 @@ public class PokemonController {
         System.out.println("Abilities:");
         for (Ability ability : pokemon.getAbilities()) {
             System.out.println(" - " + ability.getAbility().getName());
+            //Testing comments
         }
         System.out.println("Held Items:");
         for (HeldItem heldItem : pokemon.getHeldItems()) {
